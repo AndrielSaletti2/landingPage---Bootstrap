@@ -1,0 +1,42 @@
+body{
+    background: rgb(212,212,212);
+    background: linear-gradient(0deg, rgba(212,212,212,1) 0%, rgba(230,230,230,1) 57%, rgba(255,255,255,1) 100%); 
+}
+nav{
+    height: 10vh;
+}
+aside , main {
+    height: 40vh;
+}
+.grid{
+    height: 50vh;
+}
+.grid-item{
+    height: 80%;
+}
+#carouselExampleSlidesOnly{
+    right: 110px;
+    top: 10px;
+}
+.carousel-inner img {
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;  /* Ajuste o valor conforme o tamanho desejado */
+    object-fit: cover;  /* Isso vai garantir que a imagem ocupe todo o espaço sem distorcer */
+}
+
+.grid-item{
+    border-radius: 20px;
+    color: #f8f8f8;
+    font-weight: 600;
+}
+
+#item-1{
+    background-color: #EB5D22;
+}
+#item-2{
+    background-color: #2189C6;
+}
+#item-3{
+    background-color: #e6d11c;
+}
