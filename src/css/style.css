@@ -21,8 +21,8 @@ aside , main {
 .carousel-inner img {
     border-radius: 20px;
     width: 400px;
-    height: 250px;  /* Ajuste o valor conforme o tamanho desejado */
-    object-fit: cover;  /* Isso vai garantir que a imagem ocupe todo o espaço sem distorcer */
+    height: 250px;
+    object-fit: cover;
 }
 
 .grid-item{
